@@ -15,17 +15,31 @@ body{
 }
 
 header{
-    padding: 0;
+    padding: 10px 5px ;
+    width: 100%;
+    background-color: black;
+    
+    
 
+    
     .navbar{
         padding:0;
         background-color: black;
+        
+        
+        .navbar-brand{
+            img{
+                border-radius: 15px;
+            }
+        }
 
         .navbar-collapse{
             height: 5rem;
+            display: flex;
+            justify-content: space-evenly;
 
             .navbar-nav{
-                width: 60%;
+                width: 80%;
                 height: 5rem;
                 display: flex;
                 align-items: center;
@@ -40,9 +54,10 @@ header{
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    border-radius: 15px;
 
                     &:hover{
-                        background-color: red;
+                        background-color:rgba(255, 0, 0, 0.883);
                         transform: scale(1.1);
                         transition:all 0.5s;
                     }
@@ -51,5 +66,22 @@ header{
             }
         
         }
+
+        .d-flex{
+            
+            .form-control{
+                width: 65rem;
+                border-radius:15px;
+            }
+
+            .boton{
+                color: white;
+                background-color: red;
+                
+            }
+        }
+
     }
 }
+
+

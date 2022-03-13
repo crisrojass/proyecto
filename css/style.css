@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* un rem a 10 pixeles */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+header {
+  padding: 10px 5px;
+  width: 100%;
+  background-color: black;
+}
+header .navbar {
+  padding: 0;
+  background-color: black;
+}
+header .navbar .navbar-brand img {
+  border-radius: 15px;
+}
+header .navbar .navbar-collapse {
+  height: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .navbar .navbar-collapse .navbar-nav {
+  width: 80%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link {
+  color: white;
+  font-size: medium;
+  height: 5rem;
+  width: 20%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link:hover {
+  background-color: rgba(255, 0, 0, 0.883);
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+header .navbar .d-flex .form-control {
+  width: 65rem;
+  border-radius: 15px;
+}
+header .navbar .d-flex .boton {
+  color: white;
+  background-color: red;
+}
+
+.carousel-item {
+  transition: transform 0.7s ease, opacity 0.5s ease-out;
+}
+
+.carousel {
+  padding-top: 8rem;
+}
+
+.container-fluid-vg {
+  height: 40rem;
+}
+.container-fluid-vg .row {
+  height: 35rem;
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-fluid-vg .row .col-sm-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10rem;
+}
+.container-fluid-vg .row .col-sm-2 h2 {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  position: relative;
+  text-transform: uppercase;
+}
+.container-fluid-vg .row .col-sm-2 h2 span {
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  letter-spacing: 0.04em;
+}
+.container-fluid-vg .row .col-sm-10 {
+  width: 83%;
+  display: flex;
+  padding-left: 20rem;
+}
+.container-fluid-vg .row .col-sm-10 a:hover {
+  transform: scale(1.09);
+  transition: all 0.3s;
+}
+.container-fluid-vg .row .col-sm-10 a img {
+  height: 35rem;
+}
+
+.contbg {
+  padding: 35px 15px;
+  position: relative;
+}
+
+.container-fluid-el {
+  height: 40rem;
+}
+.container-fluid-el .row-el {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10rem;
+}
+.container-fluid-el .row-el .col-sm-2-el {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-fluid-el .row-el .col-sm-2-el h2 {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  position: relative;
+  text-transform: uppercase;
+}
+.container-fluid-el .row-el .col-sm-2-el h2 span {
+  display: flex;
+  justify-content: center;
+  font-size: 2.2em;
+  letter-spacing: 0.04em;
+}
+.container-fluid-el .row-el .col-sm-10-el {
+  height: 100%;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluid-el .row-el .col-sm-10-el a {
+  padding-left: 3rem;
+}
+.container-fluid-el .row-el .col-sm-10-el a:hover {
+  transform: scale(1.09);
+  transition: all 0.3s;
+}
+.container-fluid-el .row-el .col-sm-10-el a img {
+  height: 25rem;
+  width: 20rem;
+}
+
+/*# sourceMappingURL=style.css.map */

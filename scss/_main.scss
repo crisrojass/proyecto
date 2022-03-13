@@ -2,11 +2,123 @@
     transition: transform 0.7s ease, opacity .5s ease-out;
 }
 
-.container-xl{
-    padding: 20px 15px;
-    height: 30rem;
+.carousel{
+    padding-top: 8rem;
+}
+
+.container-fluid-vg{
+
+    height: 40rem;
+    
+        .row{
+            height: 35rem;
+            margin-right: -15px;
+            margin-left: -15px;
+            display: flex;
+            justify-content: space-evenly;
+
+            .col-sm-2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-left: 10rem;
+                h2{
+                    display: flex;
+                    flex-direction: column;
+                    letter-spacing: 0.1em;
+                    font-size: 1.2em;
+                    position: relative;
+                    text-transform: uppercase;
+                    span{
+                        display: flex;
+                        justify-content: center;
+                        font-size: 2.2em;
+                        letter-spacing: 0.04em;
+                    }
+                }
+            }
+
+            .col-sm-10{
+                width: 83%;
+                display: flex;
+                padding-left: 20rem;
+                
+                a{
+                   &:hover{
+                       transform:scale(1.09);
+                       transition: all 0.3s;
+                   }
+                    img{
+                        height: 35rem;
+                    }
+                }
+
+               
+            }
+        }
+
 
 }
+
+.contbg{
+    padding: 35px 15px;
+    position: relative;
+}
+
+.container-fluid-el{
+    height: 40rem;
+
+    .row-el{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 10rem;
+
+        .col-sm-2-el{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            h2{
+                display: flex;
+                flex-direction: column;
+                letter-spacing: 0.1em;
+                font-size: 1.2em;
+                position: relative;
+                text-transform: uppercase;
+                
+                span{
+                    display: flex;
+                    justify-content: center;
+                    font-size: 2.2em;
+                    letter-spacing: 0.04em;
+                }
+            }
+            
+        }
+
+        .col-sm-10-el{
+            height: 100%;
+            width: 65%;
+            display: flex;
+            justify-content: space-between;
+            a{
+                padding-left: 3rem;
+                &:hover{
+                    transform:scale(1.09);
+                    transition: all 0.3s;
+                }
+                img{
+                    height: 25rem;
+                    width: 20rem;
+                }
+            }
+        }
+    }
+}
+
 
 
 
